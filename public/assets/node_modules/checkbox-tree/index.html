@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/checktree.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+        <style>
+        body { background-color:#fafafa;}
+        .container { margin:150px auto; max-width:600px;}
+        </style>
+        <link href="https://bootswatch.com/paper/bootstrap.min.css" rel="stylesheet" type="text/css">
+<title>jQuery Checktree: Checkbox Tree Plugin Demo</title>
+</head>
+	<body>
+    <div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="//www.jqueryscript.net/other/Simple-Plain-Checkbox-Tree-Plugin-jQuery/">Download This Plugin</a></li>
+<li><a href="//www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+    <div class="container">
+    <h1>jQuery Checktree: Checkbox Tree Plugin Demo</h1>
+		<ul class="checktree">
+				<li>
+				<input id="administration" type="checkbox" /><label for="administration">Administration</label>
+				<ul>
+					<li>
+						<input id="president" type="checkbox" /><label for="president">President</label>
+						<ul>
+							<li>
+								<input id="manager1" type="checkbox" /><label for="manager1">Manager 1</label>
+								<ul>
+									<li><input id="assistantmanager1" type="checkbox" /><label for="assistantmanager1">Assistant Manager 1</label></li>
+									<li><input id="assistantmanager2" type="checkbox" /><label for="assistantmanager2">Assistant Manager 2</label></li>
+									<li><input id="assistantmanager3" type="checkbox" /><label for="assistantmanager3">Assistant Manager 3</label></li>
+								</ul>
+							</li>
+							<li><input id="manager2" type="checkbox" /><label for="manager2">Manager 2</label></li>
+							<li><input id="manager3" type="checkbox" /><label for="manager3">Manager 3</label></li>
+						</ul>
+					</li>
+					<li>
+						<input id="vicepresident" type="checkbox" /><label for="vicepresident">Vice President</label>
+						<ul>
+							<li><input id="manager4" type="checkbox" /><label for="manager4">Manager 4</label></li>
+							<li><input id="manager5" type="checkbox" /><label for="manager5">Manager 5</label></li>
+							<li><input id="manager6" type="checkbox" /><label for="manager6">Manager 6</label></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+        </div>
+		<script>
+	$(function(){
+		$("ul.checktree").checktree();
+	});
+	</script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
